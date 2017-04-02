@@ -1,0 +1,4 @@
+/Users/jaehyunshok/develop/sharp-look-and-say/chap1/chap1/bin/Debug/chap1.exe
+/Users/jaehyunshok/develop/sharp-look-and-say/chap1/chap1/bin/Debug/chap1.exe.mdb
+/Users/jaehyunshok/develop/sharp-look-and-say/chap1/chap1/obj/x86/Debug/chap1.exe
+/Users/jaehyunshok/develop/sharp-look-and-say/chap1/chap1/obj/x86/Debug/chap1.exe.mdb
