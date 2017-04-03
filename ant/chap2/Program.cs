@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Text;
 using System.Text.RegularExpressions;
 
 namespace chap2
@@ -32,14 +33,14 @@ namespace chap2
 	{
 		public static string Replace(this string input, string pattern, Func<string, string> func)
 		{
-			var output = "";
+			var sb = new StringBuilder();
 			var regPattern = new Regex(pattern, RegexOptions.Compiled);
 			foreach (Match match in regPattern.Matches(input))
 			{
-				output += func(match.Value);
+				sb.Append(func(match.Value));
 			}
 
-			return output;
+			return sb.ToString();
 
 		}
 	}
