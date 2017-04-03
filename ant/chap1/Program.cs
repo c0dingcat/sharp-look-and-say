@@ -32,15 +32,11 @@ namespace chap1
 				return input;
 			}
 
-			if (n <= 0)
-			{
-				throw new Exception("unsupported");
-			}
-
 			for (var i = 2; i <= n; i++)
 			{
 				input = next(input);
 			}
+
 			return input;
 		}
 
@@ -73,14 +69,11 @@ namespace chap1
 				}
 			}
 
-
 			sb.Append(count.ToString());
 			sb.Append(last);
 
 			return sb.ToString();
 		}
-
 	}
-
 
 }
